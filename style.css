@@ -40,13 +40,12 @@ button:hover {
   transform: scale(0.95);
 }
 
-/* Display box */
+
 .js-display {
   padding: 20px;
   border-radius: 10px;
   background-color: blanchedalmond;
   margin-top: 20px;
-  word-wrap: break-word;
 }
 
 @media (max-width: 480px) {
@@ -57,6 +56,7 @@ button:hover {
   button {
     font-size: 0.9rem;
     padding: 8px 15px;
+    margin-bottom:5px;
   }
 
   .js-display {
