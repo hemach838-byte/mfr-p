@@ -49,8 +49,4 @@ button:hover {
   .js-display {
     padding: 15px;
   }
-@media (min-width: 481px) and (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-}
+
