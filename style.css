@@ -35,19 +35,11 @@ button:hover {
 }
 
 
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
+@media (min-width: 480px) {
   button {
-    font-size: 0.9rem;
-    padding: 8px 15px;
-    margin-bottom:5px;
-    padding-bottom:5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
   }
-
-  .js-display {
-    padding: 15px;
-  }
+}
 
